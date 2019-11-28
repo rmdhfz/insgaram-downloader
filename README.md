@@ -1,5 +1,5 @@
 # instagram-downloader
-This is script for downloader instagram post (image or video). 
+This is a downloader script for Instagram (image or video). 
 
 How to run :
 
