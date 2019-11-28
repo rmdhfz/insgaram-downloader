@@ -9,10 +9,8 @@ from bs4 import BeautifulSoup
 def i_DOWNLOADER(base_d):
     # Storing the path where to download the instagram posts in the download_path variable
     download_path = "YOUR DOWNLOAD PATH"
-
     # Fetching the __typename of the POST from base_d dictionary and storing them in typename
     typename = base_d['__typename']
-
     # Checking if the typename is GraphImage meaning INSTAGRAM POST is a single image
     if typename == "GraphImage":
         # Fetching the Instagram Image URL from display_url of base_d dictionary
